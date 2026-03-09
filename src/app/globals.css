@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: #08080d;
+  --foreground: #e8e8f0;
+  --surface: #111118;
+  --border: rgba(255, 255, 255, 0.07);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100dvh;
+}
+
+/* Hide scrollbar for trail */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Selection */
+::selection {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+/* ── Atlas timeline range slider ── */
+.atlas-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  z-index: 10;
+}
+.atlas-range::-webkit-slider-runnable-track {
+  height: 3px;
+  background: transparent;
+}
+.atlas-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  margin-top: -5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+  transition: transform 0.1s ease, background 0.1s ease;
+}
+.atlas-range::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  background: white;
+}
+.atlas-range::-moz-range-track {
+  height: 3px;
+  background: transparent;
+}
+.atlas-range::-moz-range-thumb {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+}

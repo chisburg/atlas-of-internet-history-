@@ -1,0 +1,385 @@
+slug,title,category,all_categories,priority,canonical_url,preferred_year,region,cluster,tier,is_anchor,visual_type,label_mode
+world-wide-web,World Wide Web,early-web-core,early-web-core,1,http://info.cern.ch/,1991,Early Web,core-web,1,True,thumbnail,always
+mosaic,Mosaic,early-web-core,early-web-core,1,http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/NCSAMosaicHome.html,1993,Early Web,core-web,2,False,thumbnail,medium+
+netscape-navigator,Netscape Navigator,early-web-core,early-web-core,1,http://home.netscape.com/,1995,Early Web,core-web,1,True,thumbnail,always
+netscape-communicator,Netscape Communicator,early-web-core,early-web-core,2,http://home.netscape.com/comprod/products/communicator/,1997,Early Web,core-web,3,False,badge,close+
+internet-explorer,Internet Explorer,early-web-core,early-web-core,1,http://www.microsoft.com/windows/ie/,1998,Early Web,core-web,2,False,thumbnail,medium+
+aol-browser,AOL Browser,early-web-core,early-web-core,3,http://www.aol.com/,1999,Early Web,core-web,4,False,dot,closest
+opera,Opera,early-web-core,early-web-core,2,http://www.opera.com/,1998,Early Web,core-web,3,False,badge,close+
+mozilla-suite,Mozilla Suite,early-web-core,early-web-core,3,http://www.mozilla.org/,2000,Early Web,core-web,4,False,dot,closest
+firefox,Firefox,early-web-core,early-web-core,1,http://www.mozilla.org/products/firefox/,2004,Early Web,core-web,2,False,thumbnail,medium+
+chrome,Chrome,early-web-core,early-web-core,1,http://www.google.com/chrome/,2008,Early Web,core-web,2,False,thumbnail,medium+
+lynx,Lynx,early-web-core,early-web-core,3,http://lynx.browser.org/,1996,Early Web,core-web,4,False,dot,closest
+shockwave,Shockwave,early-web-core,early-web-core,2,http://www.macromedia.com/shockwave/,1999,Early Web,core-web,3,False,badge,close+
+java-applets,Java Applets,early-web-core,early-web-core,3,,1998,Early Web,core-web,4,False,dot,closest
+activex,ActiveX,early-web-core,early-web-core,3,,1998,Early Web,core-web,4,False,dot,closest
+frames,Frames,early-web-core,early-web-core,3,,1997,Early Web,core-web,4,False,dot,closest
+guestbooks,Guestbooks,weird-internet-dna,weird-internet-dna|early-web-core,2,,1998,Internet DNA,formats-glue,3,False,badge,close+
+hit-counters,Hit Counters,early-web-core,early-web-core,3,,1998,Early Web,core-web,4,False,dot,closest
+under-construction-gif,Under Construction GIF,early-web-core,early-web-core,3,,1997,Early Web,core-web,4,False,dot,closest
+webrings,Webrings,early-web-core,early-web-core|weird-internet-dna,1,,1998,Early Web,core-web,2,False,thumbnail,medium+
+geocities,GeoCities,early-web-core,early-web-core,1,http://www.geocities.com/,1998,Early Web,core-web,1,True,thumbnail,always
+angelfire,Angelfire,early-web-core,early-web-core,2,http://www.angelfire.com/,1999,Early Web,core-web,3,False,badge,close+
+tripod,Tripod,early-web-core,early-web-core,2,http://www.tripod.com/,1999,Early Web,core-web,3,False,badge,close+
+homestead,Homestead,early-web-core,early-web-core,3,http://www.homestead.com/,2000,Early Web,core-web,4,False,dot,closest
+fortunecity,FortuneCity,early-web-core,early-web-core,3,http://www.fortunecity.com/,1999,Early Web,core-web,4,False,dot,closest
+xoom,Xoom,early-web-core,early-web-core,3,http://www.xoom.com/,1999,Early Web,core-web,4,False,dot,closest
+personal-homepages,Personal Homepages,personal-diy-web,personal-diy-web,1,,1998,Early Web,personal-web,2,False,thumbnail,medium+
+home-page-for-your-cat,Home Page for Your Cat,personal-diy-web,personal-diy-web,4,,1997,Early Web,personal-web,4,False,dot,closest
+shrine-sites,Shrine Sites,personal-diy-web,personal-diy-web,3,,2001,Early Web,personal-web,4,False,dot,closest
+fan-pages,Fan Pages,personal-diy-web,personal-diy-web,2,,1999,Early Web,personal-web,3,False,badge,close+
+midi-background-music,MIDI Background Music,personal-diy-web,personal-diy-web,3,,1998,Early Web,personal-web,4,False,dot,closest
+blink-tag,Blink Tag,personal-diy-web,personal-diy-web,4,,1997,Early Web,personal-web,4,False,dot,closest
+marquee-tag,Marquee Tag,personal-diy-web,personal-diy-web,4,,1998,Early Web,personal-web,4,False,dot,closest
+best-viewed-in-netscape,Best viewed in Netscape,personal-diy-web,personal-diy-web,4,,1997,Early Web,personal-web,4,False,dot,closest
+awards-pages,Awards Pages,personal-diy-web,personal-diy-web,4,,1999,Early Web,personal-web,4,False,dot,closest
+links-pages,Links Pages,personal-diy-web,personal-diy-web,3,,1998,Early Web,personal-web,4,False,dot,closest
+cool-sites-lists,Cool Sites lists,personal-diy-web,personal-diy-web,3,,1998,Early Web,personal-web,4,False,dot,closest
+88x31-buttons,88x31 Buttons,personal-diy-web,personal-diy-web,2,,2000,Early Web,personal-web,3,False,badge,close+
+guestbook-culture,Guestbook Culture,personal-diy-web,personal-diy-web,3,,1999,Early Web,personal-web,4,False,dot,closest
+counter-culture,Counter Culture,personal-diy-web,personal-diy-web,3,,1999,Early Web,personal-web,4,False,dot,closest
+site-rings,Site Rings,personal-diy-web,personal-diy-web,3,,1999,Early Web,personal-web,4,False,dot,closest
+portal-of-evil,Portal of Evil,personal-diy-web,personal-diy-web,3,http://www.portalofevil.com/,2001,Early Web,personal-web,4,False,dot,closest
+kittyradio,Kittyradio,personal-diy-web,personal-diy-web,4,http://www.kittyradio.com/,2004,Early Web,personal-web,4,False,dot,closest
+webcam-pages,Webcam pages,personal-diy-web,personal-diy-web,3,,1999,Early Web,personal-web,4,False,dot,closest
+webcam-girls,Webcam Girls,personal-diy-web,personal-diy-web,3,,2000,Early Web,personal-web,4,False,dot,closest
+webcam-communities,Webcam communities,personal-diy-web,personal-diy-web,3,,2000,Early Web,personal-web,4,False,dot,closest
+passagen-hemsidor,Passagen Hemsidor,personal-diy-web,personal-diy-web,2,http://hem.passagen.se/,1999,Early Web,personal-web,3,False,badge,close+
+spray-hemsidor,Spray Hemsidor,personal-diy-web,personal-diy-web,3,http://home.swipnet.se/,1999,Early Web,personal-web,4,False,dot,closest
+lunarstorm-presentations,LunarStorm presentations,personal-diy-web,personal-diy-web,2,http://www.lunarstorm.se/,2002,Early Web,personal-web,3,False,badge,close+
+snyggast-se,Snyggast.se,personal-diy-web,personal-diy-web|swedish-nordic-local,3,http://www.snyggast.se/,2004,Early Web,personal-web,4,False,dot,closest
+hamsterpaj,Hamsterpaj,personal-diy-web,personal-diy-web|swedish-nordic-local,2,http://www.hamsterpaj.net/,2004,Early Web,personal-web,3,False,badge,close+
+yahoo-directory,Yahoo Directory,search-portals-directories,search-portals-directories,1,http://dir.yahoo.com/,1998,Information,search-portals,2,False,thumbnail,medium+
+yahoo,Yahoo,search-portals-directories,search-portals-directories,1,http://www.yahoo.com/,1998,Information,search-portals,2,False,thumbnail,medium+
+altavista,AltaVista,search-portals-directories,search-portals-directories,1,http://www.altavista.com/,1998,Information,search-portals,2,False,thumbnail,medium+
+lycos,Lycos,search-portals-directories,search-portals-directories,2,http://www.lycos.com/,1998,Information,search-portals,3,False,badge,close+
+excite,Excite,search-portals-directories,search-portals-directories,2,http://www.excite.com/,1998,Information,search-portals,3,False,badge,close+
+ask-jeeves,Ask Jeeves,search-portals-directories,search-portals-directories,1,http://www.askjeeves.com/,1999,Information,search-portals,2,False,thumbnail,medium+
+dogpile,Dogpile,search-portals-directories,search-portals-directories,3,http://www.dogpile.com/,2000,Information,search-portals,4,False,dot,closest
+hotbot,HotBot,search-portals-directories,search-portals-directories,3,http://www.hotbot.com/,1998,Information,search-portals,4,False,dot,closest
+webcrawler,WebCrawler,search-portals-directories,search-portals-directories,3,http://www.webcrawler.com/,1998,Information,search-portals,4,False,dot,closest
+northern-light,Northern Light,search-portals-directories,search-portals-directories,3,http://www.northernlight.com/,1999,Information,search-portals,4,False,dot,closest
+alltheweb,AlltheWeb,search-portals-directories,search-portals-directories,2,http://www.alltheweb.com/,2001,Information,search-portals,3,False,badge,close+
+google,Google,search-portals-directories,search-portals-directories|social-networks-platforms,1,http://www.google.com/,2000,Information,search-portals,1,True,thumbnail,always
+google-images,Google Images,search-portals-directories,search-portals-directories,2,http://images.google.com/,2002,Information,search-portals,3,False,badge,close+
+dmoz,DMOZ,search-portals-directories,search-portals-directories,2,http://www.dmoz.org/,2002,Information,search-portals,3,False,badge,close+
+netscape-directory,Netscape Directory,search-portals-directories,search-portals-directories,3,http://directory.netscape.com/,2000,Information,search-portals,4,False,dot,closest
+msn-search,MSN Search,search-portals-directories,search-portals-directories,3,http://search.msn.com/,2002,Information,search-portals,4,False,dot,closest
+aol-search,AOL Search,search-portals-directories,search-portals-directories,3,http://search.aol.com/,2002,Information,search-portals,4,False,dot,closest
+search-engine-watch,Search Engine Watch,search-portals-directories,search-portals-directories,3,http://searchenginewatch.com/,2002,Information,search-portals,4,False,dot,closest
+metacrawler,Metacrawler,search-portals-directories,search-portals-directories,3,http://www.metacrawler.com/,2000,Information,search-portals,4,False,dot,closest
+kartoo,KartOO,search-portals-directories,search-portals-directories,4,http://www.kartoo.com/,2002,Information,search-portals,4,False,dot,closest
+cuil,Cuil,search-portals-directories,search-portals-directories,4,http://www.cuil.com/,2008,Information,search-portals,4,False,dot,closest
+delicious,Delicious,search-portals-directories,search-portals-directories,2,http://del.icio.us/,2005,Information,search-portals,3,False,badge,close+
+stumbleupon,StumbleUpon,search-portals-directories,search-portals-directories,1,http://www.stumbleupon.com/,2006,Information,search-portals,2,False,thumbnail,medium+
+digg,Digg,search-portals-directories,search-portals-directories|forums-aggregators-communities,1,http://digg.com/,2006,Information,search-portals,2,False,thumbnail,medium+
+slashdot,Slashdot,search-portals-directories,search-portals-directories|forums-aggregators-communities,1,http://slashdot.org/,2000,Information,search-portals,2,False,thumbnail,medium+
+blogger,Blogger,blogging-publishing-rss,blogging-publishing-rss,1,http://www.blogger.com/,2002,Personal Publishing,blogs-rss,1,True,thumbnail,always
+blogspot,Blogspot,blogging-publishing-rss,blogging-publishing-rss,2,http://www.blogspot.com/,2003,Personal Publishing,blogs-rss,3,False,badge,close+
+livejournal,LiveJournal,blogging-publishing-rss,blogging-publishing-rss,1,http://www.livejournal.com/,2003,Personal Publishing,blogs-rss,2,False,thumbnail,medium+
+xanga,Xanga,blogging-publishing-rss,blogging-publishing-rss,2,http://www.xanga.com/,2003,Personal Publishing,blogs-rss,3,False,badge,close+
+diaryland,Diaryland,blogging-publishing-rss,blogging-publishing-rss,3,http://www.diaryland.com/,2002,Personal Publishing,blogs-rss,4,False,dot,closest
+open-diary,Open Diary,blogging-publishing-rss,blogging-publishing-rss,3,http://www.opendiary.com/,2001,Personal Publishing,blogs-rss,4,False,dot,closest
+pitas,Pitas,blogging-publishing-rss,blogging-publishing-rss,4,http://www.pitas.com/,2001,Personal Publishing,blogs-rss,4,False,dot,closest
+typepad,TypePad,blogging-publishing-rss,blogging-publishing-rss,2,http://www.typepad.com/,2004,Personal Publishing,blogs-rss,3,False,badge,close+
+movable-type,Movable Type,blogging-publishing-rss,blogging-publishing-rss,2,http://www.movabletype.org/,2003,Personal Publishing,blogs-rss,3,False,badge,close+
+wordpress,WordPress,blogging-publishing-rss,blogging-publishing-rss,1,http://wordpress.org/,2005,Personal Publishing,blogs-rss,2,False,thumbnail,medium+
+tumblr,Tumblr,blogging-publishing-rss,blogging-publishing-rss,1,http://www.tumblr.com/,2009,Personal Publishing,blogs-rss,2,False,thumbnail,medium+
+posterous,Posterous,blogging-publishing-rss,blogging-publishing-rss,3,http://posterous.com/,2009,Personal Publishing,blogs-rss,4,False,dot,closest
+medium,Medium,blogging-publishing-rss,blogging-publishing-rss,2,http://medium.com/,2013,Personal Publishing,blogs-rss,3,False,badge,close+
+rss,RSS,blogging-publishing-rss,blogging-publishing-rss,1,,2003,Personal Publishing,blogs-rss,2,False,thumbnail,medium+
+atom-feeds,Atom feeds,blogging-publishing-rss,blogging-publishing-rss,3,,2004,Personal Publishing,blogs-rss,4,False,dot,closest
+blogrolls,Blogrolls,blogging-publishing-rss,blogging-publishing-rss,2,,2004,Personal Publishing,blogs-rss,3,False,badge,close+
+trackbacks,Trackbacks,blogging-publishing-rss,blogging-publishing-rss,3,,2004,Personal Publishing,blogs-rss,4,False,dot,closest
+pingbacks,Pingbacks,blogging-publishing-rss,blogging-publishing-rss,3,,2004,Personal Publishing,blogs-rss,4,False,dot,closest
+technorati,Technorati,blogging-publishing-rss,blogging-publishing-rss,2,http://technorati.com/,2005,Personal Publishing,blogs-rss,3,False,badge,close+
+feedburner,FeedBurner,blogging-publishing-rss,blogging-publishing-rss,3,http://www.feedburner.com/,2005,Personal Publishing,blogs-rss,4,False,dot,closest
+google-reader,Google Reader,blogging-publishing-rss,blogging-publishing-rss,2,http://www.google.com/reader/,2007,Personal Publishing,blogs-rss,3,False,badge,close+
+bloglines,Bloglines,blogging-publishing-rss,blogging-publishing-rss,3,http://www.bloglines.com/,2005,Personal Publishing,blogs-rss,4,False,dot,closest
+substack,Substack,blogging-publishing-rss,blogging-publishing-rss,2,http://substack.com/,2019,Personal Publishing,blogs-rss,3,False,badge,close+
+ghost,Ghost,blogging-publishing-rss,blogging-publishing-rss,2,http://ghost.org/,2014,Personal Publishing,blogs-rss,3,False,badge,close+
+neocities,Neocities,blogging-publishing-rss,blogging-publishing-rss,2,http://neocities.org/,2015,Personal Publishing,blogs-rss,3,False,badge,close+
+irc,IRC,messaging-presence-chat,messaging-presence-chat,1,,1998,Messaging,chat-presence,2,False,icon,medium+
+mirc,mIRC,messaging-presence-chat,messaging-presence-chat,2,http://www.mirc.com/,1999,Messaging,chat-presence,3,False,badge,close+
+icq,ICQ,messaging-presence-chat,messaging-presence-chat,1,http://www.icq.com/,1999,Messaging,chat-presence,1,True,thumbnail,always
+aol-instant-messenger,AOL Instant Messenger,messaging-presence-chat,messaging-presence-chat,1,http://www.aim.com/,2001,Messaging,chat-presence,2,False,thumbnail,medium+
+aim-away-messages,AIM away messages,messaging-presence-chat,messaging-presence-chat,2,,2002,Messaging,chat-presence,3,False,badge,close+
+msn-messenger,MSN Messenger,messaging-presence-chat,messaging-presence-chat,1,http://messenger.msn.com/,2003,Messaging,chat-presence,2,False,thumbnail,medium+
+windows-live-messenger,Windows Live Messenger,messaging-presence-chat,messaging-presence-chat,2,http://explore.live.com/windows-live-messenger,2009,Messaging,chat-presence,3,False,badge,close+
+yahoo-messenger,Yahoo Messenger,messaging-presence-chat,messaging-presence-chat,2,http://messenger.yahoo.com/,2002,Messaging,chat-presence,3,False,badge,close+
+jabber,Jabber,messaging-presence-chat,messaging-presence-chat,3,http://www.jabber.org/,2002,Messaging,chat-presence,4,False,dot,closest
+xmpp,XMPP,messaging-presence-chat,messaging-presence-chat,3,http://xmpp.org/,2005,Messaging,chat-presence,4,False,dot,closest
+skype,Skype,messaging-presence-chat,messaging-presence-chat,1,http://www.skype.com/,2005,Messaging,chat-presence,2,False,thumbnail,medium+
+ventrilo,Ventrilo,messaging-presence-chat,messaging-presence-chat,3,http://www.ventrilo.com/,2005,Messaging,chat-presence,4,False,dot,closest
+teamspeak,TeamSpeak,messaging-presence-chat,messaging-presence-chat,3,http://www.teamspeak.com/,2005,Messaging,chat-presence,4,False,dot,closest
+discord,Discord,messaging-presence-chat,messaging-presence-chat,1,http://discord.com/,2017,Messaging,chat-presence,2,False,thumbnail,medium+
+internet-relay-chat-bots,Internet Relay Chat bots,messaging-presence-chat,messaging-presence-chat,3,,2000,Messaging,chat-presence,4,False,dot,closest
+habbo-hotel,Habbo Hotel,messaging-presence-chat,messaging-presence-chat,2,http://www.habbo.com/,2005,Messaging,chat-presence,3,False,badge,close+
+second-life,Second Life,messaging-presence-chat,messaging-presence-chat,2,http://secondlife.com/,2007,Messaging,chat-presence,3,False,badge,close+
+imvu,IMVU,messaging-presence-chat,messaging-presence-chat,3,http://www.imvu.com/,2007,Messaging,chat-presence,4,False,dot,closest
+gaia-online,Gaia Online,messaging-presence-chat,messaging-presence-chat|creation-art-fandom,2,http://www.gaiaonline.com/,2005,Messaging,chat-presence,3,False,badge,close+
+omegle,Omegle,messaging-presence-chat,messaging-presence-chat,2,http://www.omegle.com/,2010,Messaging,chat-presence,3,False,badge,close+
+chatroulette,Chatroulette,messaging-presence-chat,messaging-presence-chat,2,http://chatroulette.com/,2010,Messaging,chat-presence,3,False,badge,close+
+tinychat,Tinychat,messaging-presence-chat,messaging-presence-chat,3,http://tinychat.com/,2010,Messaging,chat-presence,4,False,dot,closest
+club-penguin,Club Penguin,messaging-presence-chat,messaging-presence-chat,2,http://www.clubpenguin.com/,2008,Messaging,chat-presence,3,False,badge,close+
+lunarstorm,LunarStorm,swedish-nordic-local,swedish-nordic-local|messaging-presence-chat,1,http://www.lunarstorm.se/,2002,Nordic / Local Web,nordic-local,2,False,thumbnail,medium+
+playahead,Playahead,messaging-presence-chat,messaging-presence-chat|swedish-nordic-local,3,http://www.playahead.se/,2004,Messaging,chat-presence,4,False,dot,closest
+napster,Napster,filesharing-media,filesharing-media,1,http://www.napster.com/,2000,File Sharing,p2p-media,1,True,thumbnail,always
+limewire,LimeWire,filesharing-media,filesharing-media,1,http://www.limewire.com/,2003,File Sharing,p2p-media,2,False,thumbnail,medium+
+kazaa,Kazaa,filesharing-media,filesharing-media,2,http://www.kazaa.com/,2003,File Sharing,p2p-media,3,False,badge,close+
+morpheus,Morpheus,filesharing-media,filesharing-media,3,http://www.musiccity.com/,2002,File Sharing,p2p-media,4,False,dot,closest
+audiogalaxy,Audiogalaxy,filesharing-media,filesharing-media,3,http://www.audiogalaxy.com/,2001,File Sharing,p2p-media,4,False,dot,closest
+soulseek,Soulseek,filesharing-media,filesharing-media,2,http://www.slsknet.org/,2003,File Sharing,p2p-media,3,False,badge,close+
+edonkey,eDonkey,filesharing-media,filesharing-media,3,http://www.edonkey2000.com/,2002,File Sharing,p2p-media,4,False,dot,closest
+emule,eMule,filesharing-media,filesharing-media,3,http://www.emule-project.net/,2004,File Sharing,p2p-media,4,False,dot,closest
+direct-connect,Direct Connect,filesharing-media,filesharing-media,3,http://www.neo-modus.com/,2002,File Sharing,p2p-media,4,False,dot,closest
+bittorrent,BitTorrent,filesharing-media,filesharing-media,1,http://www.bittorrent.com/,2004,File Sharing,p2p-media,2,False,thumbnail,medium+
+the-pirate-bay,The Pirate Bay,filesharing-media,filesharing-media|swedish-nordic-local,1,http://thepiratebay.org/,2006,File Sharing,p2p-media,2,False,thumbnail,medium+
+demonoid,Demonoid,filesharing-media,filesharing-media,3,http://www.demonoid.com/,2005,File Sharing,p2p-media,4,False,dot,closest
+suprnova,Suprnova,filesharing-media,filesharing-media,4,http://www.suprnova.org/,2003,File Sharing,p2p-media,4,False,dot,closest
+rapidshare,RapidShare,filesharing-media,filesharing-media,3,http://www.rapidshare.com/,2007,File Sharing,p2p-media,4,False,dot,closest
+megaupload,MegaUpload,filesharing-media,filesharing-media,3,http://www.megaupload.com/,2010,File Sharing,p2p-media,4,False,dot,closest
+mediafire,MediaFire,filesharing-media,filesharing-media,3,http://www.mediafire.com/,2010,File Sharing,p2p-media,4,False,dot,closest
+winamp,Winamp,filesharing-media,filesharing-media,1,http://www.winamp.com/,2000,File Sharing,p2p-media,2,False,thumbnail,medium+
+winamp-skins,Winamp Skins,filesharing-media,filesharing-media,2,http://www.winamp.com/skins/,2001,File Sharing,p2p-media,3,False,badge,close+
+realplayer,RealPlayer,filesharing-media,filesharing-media,2,http://www.real.com/,2000,File Sharing,p2p-media,3,False,badge,close+
+quicktime,QuickTime,filesharing-media,filesharing-media,2,http://www.apple.com/quicktime/,2001,File Sharing,p2p-media,3,False,badge,close+
+itunes,iTunes,filesharing-media,filesharing-media,2,http://www.apple.com/itunes/,2004,File Sharing,p2p-media,3,False,badge,close+
+ipod-culture,iPod culture,filesharing-media,filesharing-media,3,,2005,File Sharing,p2p-media,4,False,dot,closest
+spotify,Spotify,filesharing-media,filesharing-media,1,http://www.spotify.com/,2009,File Sharing,p2p-media,2,False,thumbnail,medium+
+dc,DC++,filesharing-media,filesharing-media,3,http://dcplusplus.sourceforge.net/,2004,File Sharing,p2p-media,4,False,dot,closest
+hotline,Hotline,filesharing-media,filesharing-media,4,,1999,File Sharing,p2p-media,4,False,dot,closest
+bbs,BBS,forums-aggregators-communities,forums-aggregators-communities,1,,1995,Forums & Culture,forums,2,False,icon,medium+
+phpbb,phpBB,forums-aggregators-communities,forums-aggregators-communities,2,http://www.phpbb.com/,2004,Forums & Culture,forums,3,False,badge,close+
+vbulletin,vBulletin,forums-aggregators-communities,forums-aggregators-communities,2,http://www.vbulletin.com/,2004,Forums & Culture,forums,3,False,badge,close+
+invision-power-board,Invision Power Board,forums-aggregators-communities,forums-aggregators-communities,2,http://www.invisionpower.com/,2004,Forums & Culture,forums,3,False,badge,close+
+something-awful,Something Awful,forums-aggregators-communities,forums-aggregators-communities,1,http://www.somethingawful.com/,2004,Forums & Culture,forums,2,False,thumbnail,medium+
+fark,Fark,forums-aggregators-communities,forums-aggregators-communities,2,http://www.fark.com/,2004,Forums & Culture,forums,3,False,badge,close+
+reddit,Reddit,forums-aggregators-communities,forums-aggregators-communities,1,http://www.reddit.com/,2008,Forums & Culture,forums,1,True,thumbnail,always
+hacker-news,Hacker News,forums-aggregators-communities,forums-aggregators-communities,2,http://news.ycombinator.com/,2011,Forums & Culture,forums,3,False,badge,close+
+metafilter,MetaFilter,forums-aggregators-communities,forums-aggregators-communities,2,http://www.metafilter.com/,2004,Forums & Culture,forums,3,False,badge,close+
+9gag,9GAG,forums-aggregators-communities,forums-aggregators-communities,3,http://9gag.com/,2011,Forums & Culture,forums,4,False,dot,closest
+kuro5hin,Kuro5hin,forums-aggregators-communities,forums-aggregators-communities,4,http://www.kuro5hin.org/,2002,Forums & Culture,forums,4,False,dot,closest
+newgrounds-forum,Newgrounds Forum,forums-aggregators-communities,forums-aggregators-communities,3,http://www.newgrounds.com/bbs,2005,Forums & Culture,forums,4,False,dot,closest
+gamefaqs-message-boards,GameFAQs message boards,forums-aggregators-communities,forums-aggregators-communities,2,http://www.gamefaqs.com/boards,2005,Forums & Culture,forums,3,False,badge,close+
+neogaf,NeoGAF,forums-aggregators-communities,forums-aggregators-communities,3,http://www.neogaf.com/,2010,Forums & Culture,forums,4,False,dot,closest
+resetera,ResetEra,forums-aggregators-communities,forums-aggregators-communities,4,http://www.resetera.com/,2018,Forums & Culture,forums,4,False,dot,closest
+bodybuilding-com-misc,Bodybuilding.com misc,forums-aggregators-communities,forums-aggregators-communities,3,http://forum.bodybuilding.com/,2008,Forums & Culture,forums,4,False,dot,closest
+flashback,Flashback,forums-aggregators-communities,forums-aggregators-communities|swedish-nordic-local,2,http://www.flashback.org/,2006,Forums & Culture,forums,3,False,badge,close+
+familjeliv,Familjeliv,forums-aggregators-communities,forums-aggregators-communities|swedish-nordic-local,2,http://www.familjeliv.se/forum,2008,Forums & Culture,forums,3,False,badge,close+
+bukefalos,Bukefalos,forums-aggregators-communities,forums-aggregators-communities|swedish-nordic-local,2,http://www.bukefalos.se/,2006,Forums & Culture,forums,3,False,badge,close+
+fotosidan-forum,Fotosidan forum,forums-aggregators-communities,forums-aggregators-communities,3,http://www.fotosidan.se/forum/,2006,Forums & Culture,forums,4,False,dot,closest
+sweclockers-forum,SweClockers forum,forums-aggregators-communities,forums-aggregators-communities,2,http://www.sweclockers.com/forum,2008,Forums & Culture,forums,3,False,badge,close+
+fragbite-forum,Fragbite forum,forums-aggregators-communities,forums-aggregators-communities,3,http://www.fragbite.se/forum,2008,Forums & Culture,forums,4,False,dot,closest
+loading-forum,Loading forum,forums-aggregators-communities,forums-aggregators-communities,3,http://loading.se/forum,2007,Forums & Culture,forums,4,False,dot,closest
+macromedia-flash,Macromedia Flash,flash-web-animation-games,flash-web-animation-games,1,http://www.macromedia.com/software/flash/,2002,Creative Web,flash-animation,2,False,thumbnail,medium+
+adobe-flash,Adobe Flash,flash-web-animation-games,flash-web-animation-games,1,http://www.adobe.com/products/flashplayer/,2008,Creative Web,flash-animation,2,False,thumbnail,medium+
+newgrounds,Newgrounds,flash-web-animation-games,flash-web-animation-games,1,http://www.newgrounds.com/,2004,Creative Web,flash-animation,1,True,thumbnail,always
+albino-blacksheep,Albino Blacksheep,flash-web-animation-games,flash-web-animation-games,2,http://www.albinoblacksheep.com/,2003,Creative Web,flash-animation,3,False,badge,close+
+ebaums-world,eBaum’s World,flash-web-animation-games,flash-web-animation-games,2,http://www.ebaumsworld.com/,2004,Creative Web,flash-animation,3,False,badge,close+
+homestar-runner,Homestar Runner,flash-web-animation-games,flash-web-animation-games,1,http://www.homestarrunner.com/,2004,Creative Web,flash-animation,2,False,thumbnail,medium+
+strong-bad-emails,Strong Bad Emails,flash-web-animation-games,flash-web-animation-games,2,http://www.homestarrunner.com/sbemail.html,2004,Creative Web,flash-animation,3,False,badge,close+
+stickdeath,Stickdeath,flash-web-animation-games,flash-web-animation-games,3,http://www.stickdeath.com/,2002,Creative Web,flash-animation,4,False,dot,closest
+joe-cartoon,Joe Cartoon,flash-web-animation-games,flash-web-animation-games,3,http://www.joecartoon.com/,2002,Creative Web,flash-animation,4,False,dot,closest
+weebl-and-bob,Weebl and Bob,flash-web-animation-games,flash-web-animation-games,3,http://www.weebls-stuff.com/,2004,Creative Web,flash-animation,4,False,dot,closest
+happy-tree-friends,Happy Tree Friends,flash-web-animation-games,flash-web-animation-games,2,http://www.happytreefriends.com/,2004,Creative Web,flash-animation,3,False,badge,close+
+salad-fingers,Salad Fingers,flash-web-animation-games,flash-web-animation-games,2,http://www.fat-pie.com/salad.htm,2004,Creative Web,flash-animation,3,False,badge,close+
+bonus-com,Bonus.com,flash-web-animation-games,flash-web-animation-games,4,http://www.bonus.com/,2001,Creative Web,flash-animation,4,False,dot,closest
+candystand,Candystand,flash-web-animation-games,flash-web-animation-games,3,http://www.candystand.com/,2004,Creative Web,flash-animation,4,False,dot,closest
+miniclip,Miniclip,flash-web-animation-games,flash-web-animation-games,2,http://www.miniclip.com/,2005,Creative Web,flash-animation,3,False,badge,close+
+addictinggames,addictinggames,flash-web-animation-games,flash-web-animation-games,2,http://www.addictinggames.com/,2005,Creative Web,flash-animation,3,False,badge,close+
+kongregate,Kongregate,flash-web-animation-games,flash-web-animation-games,2,http://www.kongregate.com/,2008,Creative Web,flash-animation,3,False,badge,close+
+armor-games,Armor Games,flash-web-animation-games,flash-web-animation-games,2,http://www.armorgames.com/,2008,Creative Web,flash-animation,3,False,badge,close+
+neopets,Neopets,flash-web-animation-games,flash-web-animation-games,2,http://www.neopets.com/,2004,Creative Web,flash-animation,3,False,badge,close+
+webkinz,Webkinz,flash-web-animation-games,flash-web-animation-games,3,http://www.webkinz.com/,2007,Creative Web,flash-animation,4,False,dot,closest
+club-penguin-games,Club Penguin games,flash-web-animation-games,flash-web-animation-games,3,http://www.clubpenguin.com/,2008,Creative Web,flash-animation,4,False,dot,closest
+robot-unicorn-attack,Robot Unicorn Attack,flash-web-animation-games,flash-web-animation-games,4,,2010,Creative Web,flash-animation,4,False,dot,closest
+line-rider,Line Rider,flash-web-animation-games,flash-web-animation-games,2,http://www.linerider.com/,2007,Creative Web,flash-animation,3,False,badge,close+
+desktop-destroyer,Desktop Destroyer,flash-web-animation-games,flash-web-animation-games,4,,2000,Creative Web,flash-animation,4,False,dot,closest
+orisinal,Orisinal,flash-web-animation-games,flash-web-animation-games,3,http://www.ferryhalim.com/orisinal/,2004,Creative Web,flash-animation,4,False,dot,closest
+dancing-baby,Dancing Baby,memes-viral-remix,memes-viral-remix,1,,1998,Video & Viral,memes-remix,2,False,icon,medium+
+hamster-dance,Hamster Dance,memes-viral-remix,memes-viral-remix,1,http://www.hamsterdance.com/,1999,Video & Viral,memes-remix,2,False,thumbnail,medium+
+all-your-base-are-belong-to-us,All Your Base Are Belong To Us,memes-viral-remix,memes-viral-remix,1,,2001,Video & Viral,memes-remix,2,False,icon,medium+
+numa-numa,Numa Numa,memes-viral-remix,memes-viral-remix,1,,2004,Video & Viral,memes-remix,2,False,icon,medium+
+star-wars-kid,Star Wars Kid,memes-viral-remix,memes-viral-remix,1,,2003,Video & Viral,memes-remix,2,False,icon,medium+
+leeroy-jenkins,Leeroy Jenkins,memes-viral-remix,memes-viral-remix,1,,2005,Video & Viral,memes-remix,2,False,icon,medium+
+keyboard-cat,Keyboard Cat,memes-viral-remix,memes-viral-remix,2,,2009,Video & Viral,memes-remix,3,False,badge,close+
+rickroll,Rickroll,memes-viral-remix,memes-viral-remix,1,,2008,Video & Viral,memes-remix,2,False,icon,medium+
+chocolate-rain,Chocolate Rain,memes-viral-remix,memes-viral-remix,2,,2007,Video & Viral,memes-remix,3,False,badge,close+
+badger-badger-badger,Badger Badger Badger,memes-viral-remix,memes-viral-remix,2,,2003,Video & Viral,memes-remix,3,False,badge,close+
+peanut-butter-jelly-time,Peanut Butter Jelly Time,memes-viral-remix,memes-viral-remix,2,,2002,Video & Viral,memes-remix,3,False,badge,close+
+charlie-the-unicorn,Charlie the Unicorn,memes-viral-remix,memes-viral-remix,2,,2006,Video & Viral,memes-remix,3,False,badge,close+
+charlie-bit-my-finger,Charlie Bit My Finger,memes-viral-remix,memes-viral-remix,2,,2007,Video & Viral,memes-remix,3,False,badge,close+
+dramatic-chipmunk,Dramatic Chipmunk,memes-viral-remix,memes-viral-remix,2,,2007,Video & Viral,memes-remix,3,False,badge,close+
+double-rainbow,Double Rainbow,memes-viral-remix,memes-viral-remix,3,,2010,Video & Viral,memes-remix,4,False,dot,closest
+david-after-dentist,David After Dentist,memes-viral-remix,memes-viral-remix,3,,2009,Video & Viral,memes-remix,4,False,dot,closest
+leave-britney-alone,Leave Britney Alone,memes-viral-remix,memes-viral-remix,2,,2007,Video & Viral,memes-remix,3,False,badge,close+
+tron-guy,Tron Guy,memes-viral-remix,memes-viral-remix,4,,2004,Video & Viral,memes-remix,4,False,dot,closest
+trollface,Trollface,memes-viral-remix,memes-viral-remix,2,,2009,Video & Viral,memes-remix,3,False,badge,close+
+advice-animals,Advice Animals,memes-viral-remix,memes-viral-remix,2,,2011,Video & Viral,memes-remix,3,False,badge,close+
+lolcats,LOLcats,memes-viral-remix,memes-viral-remix,1,http://icanhas.cheezburger.com/,2007,Video & Viral,memes-remix,2,False,thumbnail,medium+
+rage-comics,Rage Comics,memes-viral-remix,memes-viral-remix,2,,2010,Video & Viral,memes-remix,3,False,badge,close+
+pepe,Pepe,memes-viral-remix,memes-viral-remix,2,,2015,Video & Viral,memes-remix,3,False,badge,close+
+wojak,Wojak,memes-viral-remix,memes-viral-remix,3,,2018,Video & Viral,memes-remix,4,False,dot,closest
+keyboard-smash-culture,Keyboard Smash culture,memes-viral-remix,memes-viral-remix,4,,2008,Video & Viral,memes-remix,4,False,dot,closest
+friendster,Friendster,social-networks-platforms,social-networks-platforms,1,http://www.friendster.com/,2004,Social Platforms,social-platforms,2,False,thumbnail,medium+
+myspace,MySpace,social-networks-platforms,social-networks-platforms,1,http://www.myspace.com/,2005,Social Platforms,social-platforms,1,True,thumbnail,always
+facebook,Facebook,social-networks-platforms,social-networks-platforms,1,http://www.facebook.com/,2007,Social Platforms,social-platforms,1,True,thumbnail,always
+twitter,Twitter,social-networks-platforms,social-networks-platforms,1,http://twitter.com/,2008,Social Platforms,social-platforms,2,False,thumbnail,medium+
+twitter-x-retweet-culture,Twitter / X retweet culture,social-networks-platforms,social-networks-platforms,2,,2011,Social Platforms,social-platforms,3,False,badge,close+
+instagram,Instagram,social-networks-platforms,social-networks-platforms,1,http://instagram.com/,2013,Social Platforms,social-platforms,2,False,thumbnail,medium+
+snapchat,Snapchat,social-networks-platforms,social-networks-platforms,2,http://www.snapchat.com/,2014,Social Platforms,social-platforms,3,False,badge,close+
+tiktok,TikTok,social-networks-platforms,social-networks-platforms,1,http://www.tiktok.com/,2020,Social Platforms,social-platforms,2,False,thumbnail,medium+
+vine,Vine,social-networks-platforms,social-networks-platforms,2,http://vine.co/,2014,Social Platforms,social-platforms,3,False,badge,close+
+orkut,Orkut,social-networks-platforms,social-networks-platforms,2,http://www.orkut.com/,2006,Social Platforms,social-platforms,3,False,badge,close+
+bebo,Bebo,social-networks-platforms,social-networks-platforms,3,http://www.bebo.com/,2007,Social Platforms,social-platforms,4,False,dot,closest
+hi5,Hi5,social-networks-platforms,social-networks-platforms,3,http://www.hi5.com/,2007,Social Platforms,social-platforms,4,False,dot,closest
+tagged,Tagged,social-networks-platforms,social-networks-platforms,4,http://www.tagged.com/,2008,Social Platforms,social-platforms,4,False,dot,closest
+orkut-scraps,Orkut scraps,social-networks-platforms,social-networks-platforms,3,,2006,Social Platforms,social-platforms,4,False,dot,closest
+formspring,Formspring,social-networks-platforms,social-networks-platforms,3,http://www.formspring.me/,2011,Social Platforms,social-platforms,4,False,dot,closest
+ask-fm,Ask.fm,social-networks-platforms,social-networks-platforms,3,http://ask.fm/,2013,Social Platforms,social-platforms,4,False,dot,closest
+fotolog,Fotolog,social-networks-platforms,social-networks-platforms,2,http://www.fotolog.com/,2008,Social Platforms,social-platforms,3,False,badge,close+
+deviantart-journals,DeviantArt journals,social-networks-platforms,social-networks-platforms,3,http://www.deviantart.com/,2007,Social Platforms,social-platforms,4,False,dot,closest
+tumblr-fandom,Tumblr fandom,social-networks-platforms,social-networks-platforms,2,http://www.tumblr.com/,2013,Social Platforms,social-platforms,3,False,badge,close+
+tumblr-aesthetics,Tumblr aesthetics,social-networks-platforms,social-networks-platforms,2,http://www.tumblr.com/,2014,Social Platforms,social-platforms,3,False,badge,close+
+pinterest,Pinterest,social-networks-platforms,social-networks-platforms,2,http://www.pinterest.com/,2013,Social Platforms,social-platforms,3,False,badge,close+
+bereal,BeReal,social-networks-platforms,social-networks-platforms,4,http://bere.al/,2022,Social Platforms,social-platforms,4,False,dot,closest
+linkedin,LinkedIn,social-networks-platforms,social-networks-platforms,2,http://www.linkedin.com/,2006,Social Platforms,social-platforms,3,False,badge,close+
+path,Path,social-networks-platforms,social-networks-platforms,3,http://path.com/,2012,Social Platforms,social-platforms,4,False,dot,closest
+4chan,4chan,anonymous-imageboards-edgy,anonymous-imageboards-edgy,1,http://www.4chan.org/,2007,Forums & Culture,anonymous-imageboards,2,False,thumbnail,medium+
+b,/b/,anonymous-imageboards-edgy,anonymous-imageboards-edgy,2,http://boards.4chan.org/b/,2007,Forums & Culture,anonymous-imageboards,3,False,badge,close+
+encyclopedia-dramatica,Encyclopedia Dramatica,anonymous-imageboards-edgy,anonymous-imageboards-edgy,2,http://encyclopediadramatica.com/,2007,Forums & Culture,anonymous-imageboards,3,False,badge,close+
+ytmnd,YTMND,anonymous-imageboards-edgy,anonymous-imageboards-edgy,1,http://ytmnd.com/,2005,Forums & Culture,anonymous-imageboards,2,False,thumbnail,medium+
+anonymous,Anonymous,anonymous-imageboards-edgy,anonymous-imageboards-edgy,1,,2008,Forums & Culture,anonymous-imageboards,2,False,icon,medium+
+habbo-raids,Habbo raids,anonymous-imageboards-edgy,anonymous-imageboards-edgy,2,,2006,Forums & Culture,anonymous-imageboards,3,False,badge,close+
+pools-closed,Pool’s Closed,anonymous-imageboards-edgy,anonymous-imageboards-edgy,2,,2006,Forums & Culture,anonymous-imageboards,3,False,badge,close+
+lulz-culture,lulz culture,anonymous-imageboards-edgy,anonymous-imageboards-edgy,3,,2008,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+imageboard-culture,imageboard culture,anonymous-imageboards-edgy,anonymous-imageboards-edgy,2,,2007,Forums & Culture,anonymous-imageboards,3,False,badge,close+
+8chan,8chan,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,http://8ch.net/,2014,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+kiwi-farms,Kiwi Farms,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,http://kiwifarms.net/,2018,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+something-awful-photoshop-phriday,Something Awful Photoshop Phriday,anonymous-imageboards-edgy,anonymous-imageboards-edgy,3,http://www.somethingawful.com/photoshop-phriday/,2004,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+goatse,Goatse,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,,2001,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+lemonparty,Lemonparty,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,,2003,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+tubgirl,Tubgirl,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,,2004,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+shock-sites,shock sites,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,,2002,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+screamer-sites,screamer sites,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,,2004,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+rotten-com,rotten.com,anonymous-imageboards-edgy,anonymous-imageboards-edgy,3,http://www.rotten.com/,2002,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+ogrish,Ogrish,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,,2004,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+liveleak,LiveLeak,anonymous-imageboards-edgy,anonymous-imageboards-edgy,3,http://www.liveleak.com/,2010,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+bestgore,BestGore,anonymous-imageboards-edgy,anonymous-imageboards-edgy,4,http://bestgore.com/,2012,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+failblog,Failblog,anonymous-imageboards-edgy,anonymous-imageboards-edgy,3,http://failblog.cheezburger.com/,2009,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+know-your-meme,Know Your Meme,anonymous-imageboards-edgy,anonymous-imageboards-edgy,1,http://knowyourmeme.com/,2012,Forums & Culture,anonymous-imageboards,2,False,thumbnail,medium+
+urban-dictionary,Urban Dictionary,anonymous-imageboards-edgy,anonymous-imageboards-edgy,2,http://www.urbandictionary.com/,2005,Forums & Culture,anonymous-imageboards,3,False,badge,close+
+meme-generators,meme generators,anonymous-imageboards-edgy,anonymous-imageboards-edgy,3,,2010,Forums & Culture,anonymous-imageboards,4,False,dot,closest
+deviantart,DeviantArt,creation-art-fandom,creation-art-fandom,1,http://www.deviantart.com/,2005,Creative Web,fandom-creation,2,False,thumbnail,medium+
+fanfiction-net,FanFiction.net,creation-art-fandom,creation-art-fandom,2,http://www.fanfiction.net/,2004,Creative Web,fandom-creation,3,False,badge,close+
+archive-of-our-own,Archive of Our Own,creation-art-fandom,creation-art-fandom,2,http://archiveofourown.org/,2013,Creative Web,fandom-creation,3,False,badge,close+
+wattpad,Wattpad,creation-art-fandom,creation-art-fandom,3,http://www.wattpad.com/,2013,Creative Web,fandom-creation,4,False,dot,closest
+livejournal-fandom,LiveJournal fandom,creation-art-fandom,creation-art-fandom,2,http://www.livejournal.com/,2005,Creative Web,fandom-creation,3,False,badge,close+
+tumblr-fan-culture,Tumblr fan culture,creation-art-fandom,creation-art-fandom,2,http://www.tumblr.com/,2013,Creative Web,fandom-creation,3,False,badge,close+
+cosplay-forums,cosplay forums,creation-art-fandom,creation-art-fandom,3,,2006,Creative Web,fandom-creation,4,False,dot,closest
+anime-fansubs,anime fansubs,creation-art-fandom,creation-art-fandom,3,,2004,Creative Web,fandom-creation,4,False,dot,closest
+amv-culture,AMV culture,creation-art-fandom,creation-art-fandom,2,,2004,Creative Web,fandom-creation,3,False,badge,close+
+nico-nico-douga,Nico Nico Douga,creation-art-fandom,creation-art-fandom,3,http://www.nicovideo.jp/,2008,Creative Web,fandom-creation,4,False,dot,closest
+pixiv,Pixiv,creation-art-fandom,creation-art-fandom,3,http://www.pixiv.net/,2011,Creative Web,fandom-creation,4,False,dot,closest
+dribbble,Dribbble,creation-art-fandom,creation-art-fandom,3,http://dribbble.com/,2012,Creative Web,fandom-creation,4,False,dot,closest
+behance,Behance,creation-art-fandom,creation-art-fandom,3,http://www.behance.net/,2012,Creative Web,fandom-creation,4,False,dot,closest
+newgrounds-art-portal,Newgrounds art portal,creation-art-fandom,creation-art-fandom,3,http://www.newgrounds.com/art,2008,Creative Web,fandom-creation,4,False,dot,closest
+sheezyart,SheezyArt,creation-art-fandom,creation-art-fandom,4,http://www.sheezyart.com/,2006,Creative Web,fandom-creation,4,False,dot,closest
+furaffinity,FurAffinity,creation-art-fandom,creation-art-fandom,4,http://www.furaffinity.net/,2010,Creative Web,fandom-creation,4,False,dot,closest
+elfwood,Elfwood,creation-art-fandom,creation-art-fandom,4,http://www.elfwood.com/,2002,Creative Web,fandom-creation,4,False,dot,closest
+oc-culture,OC culture,creation-art-fandom,creation-art-fandom,3,,2010,Creative Web,fandom-creation,4,False,dot,closest
+shipping-culture,shipping culture,creation-art-fandom,creation-art-fandom,3,,2013,Creative Web,fandom-creation,4,False,dot,closest
+roleplay-forums,roleplay forums,creation-art-fandom,creation-art-fandom,3,,2006,Creative Web,fandom-creation,4,False,dot,closest
+fandom-wikis,fandom wikis,creation-art-fandom,creation-art-fandom,3,,2011,Creative Web,fandom-creation,4,False,dot,closest
+rp-communities,RP communities,creation-art-fandom,creation-art-fandom,3,,2006,Creative Web,fandom-creation,4,False,dot,closest
+scene-kids-on-myspace,scene kids on MySpace,creation-art-fandom,creation-art-fandom,2,,2006,Creative Web,fandom-creation,3,False,badge,close+
+emo-web-aesthetics,emo web aesthetics,creation-art-fandom,creation-art-fandom,3,,2007,Creative Web,fandom-creation,4,False,dot,closest
+ebay,eBay,commerce-platform-economics,commerce-platform-economics,1,http://www.ebay.com/,2001,Commerce,commerce-platforms,2,False,thumbnail,medium+
+craigslist,Craigslist,commerce-platform-economics,commerce-platform-economics,1,http://www.craigslist.org/,2003,Commerce,commerce-platforms,2,False,thumbnail,medium+
+etsy,Etsy,commerce-platform-economics,commerce-platform-economics,2,http://www.etsy.com/,2008,Commerce,commerce-platforms,3,False,badge,close+
+amazon-reviews,Amazon reviews,commerce-platform-economics,commerce-platform-economics,2,http://www.amazon.com/,2004,Commerce,commerce-platforms,3,False,badge,close+
+paypal,PayPal,commerce-platform-economics,commerce-platform-economics,1,http://www.paypal.com/,2002,Commerce,commerce-platforms,2,False,thumbnail,medium+
+alibaba,Alibaba,commerce-platform-economics,commerce-platform-economics,3,http://www.alibaba.com/,2005,Commerce,commerce-platforms,4,False,dot,closest
+blocket,Blocket,commerce-platform-economics,commerce-platform-economics|swedish-nordic-local,2,http://www.blocket.se/,2006,Commerce,commerce-platforms,3,False,badge,close+
+tradera,Tradera,commerce-platform-economics,commerce-platform-economics|swedish-nordic-local,2,http://www.tradera.com/,2006,Commerce,commerce-platforms,3,False,badge,close+
+kickstarter,Kickstarter,commerce-platform-economics,commerce-platform-economics,2,http://www.kickstarter.com/,2013,Commerce,commerce-platforms,3,False,badge,close+
+indiegogo,Indiegogo,commerce-platform-economics,commerce-platform-economics,3,http://www.indiegogo.com/,2013,Commerce,commerce-platforms,4,False,dot,closest
+groupon,Groupon,commerce-platform-economics,commerce-platform-economics,3,http://www.groupon.com/,2011,Commerce,commerce-platforms,4,False,dot,closest
+affiliate-links,affiliate links,commerce-platform-economics,commerce-platform-economics,3,,2005,Commerce,commerce-platforms,4,False,dot,closest
+banner-ads,banner ads,commerce-platform-economics,commerce-platform-economics,2,,1999,Commerce,commerce-platforms,3,False,badge,close+
+pop-up-ads,pop-up ads,commerce-platform-economics,commerce-platform-economics,2,,2001,Commerce,commerce-platforms,3,False,badge,close+
+adsense,AdSense,commerce-platform-economics,commerce-platform-economics,2,http://www.google.com/adsense/,2005,Commerce,commerce-platforms,3,False,badge,close+
+doubleclick,DoubleClick,commerce-platform-economics,commerce-platform-economics,2,http://www.doubleclick.com/,2001,Commerce,commerce-platforms,3,False,badge,close+
+web-counters-as-monetization,web counters as monetization,commerce-platform-economics,commerce-platform-economics,4,,1999,Commerce,commerce-platforms,4,False,dot,closest
+link-exchanges,link exchanges,commerce-platform-economics,commerce-platform-economics,4,,1999,Commerce,commerce-platforms,4,False,dot,closest
+geocities-premium-hosting,Geocities premium hosting,commerce-platform-economics,commerce-platform-economics,4,http://www.geocities.com/,2000,Commerce,commerce-platforms,4,False,dot,closest
+patreon,Patreon,commerce-platform-economics,commerce-platform-economics,3,http://www.patreon.com/,2015,Commerce,commerce-platforms,4,False,dot,closest
+gumroad,Gumroad,commerce-platform-economics,commerce-platform-economics,3,http://gumroad.com/,2015,Commerce,commerce-platforms,4,False,dot,closest
+stripe-checkout,Stripe Checkout,commerce-platform-economics,commerce-platform-economics,3,http://stripe.com/,2015,Commerce,commerce-platforms,4,False,dot,closest
+shopify,Shopify,commerce-platform-economics,commerce-platform-economics,2,http://www.shopify.com/,2015,Commerce,commerce-platforms,3,False,badge,close+
+product-hunt,Product Hunt,commerce-platform-economics,commerce-platform-economics,3,http://www.producthunt.com/,2015,Commerce,commerce-platforms,4,False,dot,closest
+onlyfans,OnlyFans,commerce-platform-economics,commerce-platform-economics,4,http://onlyfans.com/,2020,Commerce,commerce-platforms,4,False,dot,closest
+wikipedia,Wikipedia,open-web-dev-knowledge,open-web-dev-knowledge,1,http://www.wikipedia.org/,2004,Information,open-knowledge,1,True,thumbnail,always
+wikimedia-commons,Wikimedia Commons,open-web-dev-knowledge,open-web-dev-knowledge,3,http://commons.wikimedia.org/,2006,Information,open-knowledge,4,False,dot,closest
+stack-overflow,Stack Overflow,open-web-dev-knowledge,open-web-dev-knowledge,2,http://stackoverflow.com/,2010,Information,open-knowledge,3,False,badge,close+
+sourceforge,SourceForge,open-web-dev-knowledge,open-web-dev-knowledge,2,http://sourceforge.net/,2004,Information,open-knowledge,3,False,badge,close+
+github,GitHub,open-web-dev-knowledge,open-web-dev-knowledge,2,http://github.com/,2010,Information,open-knowledge,3,False,badge,close+
+gitlab,GitLab,open-web-dev-knowledge,open-web-dev-knowledge,3,http://gitlab.com/,2015,Information,open-knowledge,4,False,dot,closest
+pastebin,Pastebin,open-web-dev-knowledge,open-web-dev-knowledge,3,http://pastebin.com/,2010,Information,open-knowledge,4,False,dot,closest
+irc-bots,IRC bots,open-web-dev-knowledge,open-web-dev-knowledge,4,,2001,Information,open-knowledge,4,False,dot,closest
+php-net-comments,php.net comments,open-web-dev-knowledge,open-web-dev-knowledge,3,http://www.php.net/,2005,Information,open-knowledge,4,False,dot,closest
+w3schools,W3Schools,open-web-dev-knowledge,open-web-dev-knowledge,3,http://www.w3schools.com/,2005,Information,open-knowledge,4,False,dot,closest
+mdn,MDN,open-web-dev-knowledge,open-web-dev-knowledge,2,http://developer.mozilla.org/,2012,Information,open-knowledge,3,False,badge,close+
+css-zen-garden,CSS Zen Garden,open-web-dev-knowledge,open-web-dev-knowledge,2,http://www.csszengarden.com/,2004,Information,open-knowledge,3,False,badge,close+
+a-list-apart,A List Apart,open-web-dev-knowledge,open-web-dev-knowledge,2,http://www.alistapart.com/,2002,Information,open-knowledge,3,False,badge,close+
+web-standards-project,Web Standards Project,open-web-dev-knowledge,open-web-dev-knowledge,3,http://www.webstandards.org/,2002,Information,open-knowledge,4,False,dot,closest
+rss-readers,RSS readers,open-web-dev-knowledge,open-web-dev-knowledge,3,,2005,Information,open-knowledge,4,False,dot,closest
+openid,OpenID,open-web-dev-knowledge,open-web-dev-knowledge,3,http://openid.net/,2008,Information,open-knowledge,4,False,dot,closest
+oauth,OAuth,open-web-dev-knowledge,open-web-dev-knowledge,2,http://oauth.net/,2010,Information,open-knowledge,3,False,badge,close+
+creative-commons,Creative Commons,open-web-dev-knowledge,open-web-dev-knowledge,2,http://creativecommons.org/,2004,Information,open-knowledge,3,False,badge,close+
+internet-archive,Internet Archive,open-web-dev-knowledge,open-web-dev-knowledge,1,http://www.archive.org/,2002,Information,open-knowledge,2,False,thumbnail,medium+
+wayback-machine,Wayback Machine,open-web-dev-knowledge,open-web-dev-knowledge,1,http://web.archive.org/,2002,Information,open-knowledge,2,False,thumbnail,medium+
+archive-it,Archive-It,open-web-dev-knowledge,open-web-dev-knowledge,3,http://archive-it.org/,2008,Information,open-knowledge,4,False,dot,closest
+greasemonkey,Greasemonkey,open-web-dev-knowledge,open-web-dev-knowledge,3,http://www.greasespot.net/,2005,Information,open-knowledge,4,False,dot,closest
+userscripts-org,userscripts.org,open-web-dev-knowledge,open-web-dev-knowledge,4,http://userscripts.org/,2008,Information,open-knowledge,4,False,dot,closest
+stack-exchange,Stack Exchange,open-web-dev-knowledge,open-web-dev-knowledge,3,http://stackexchange.com/,2012,Information,open-knowledge,4,False,dot,closest
+npm,npm,open-web-dev-knowledge,open-web-dev-knowledge,3,http://www.npmjs.com/,2015,Information,open-knowledge,4,False,dot,closest
+helgon,Helgon,swedish-nordic-local,swedish-nordic-local,3,http://www.helgon.net/,2006,Nordic / Local Web,nordic-local,4,False,dot,closest
+passagen,Passagen,swedish-nordic-local,swedish-nordic-local,2,http://www.passagen.se/,1999,Nordic / Local Web,nordic-local,3,False,badge,close+
+spray,Spray,swedish-nordic-local,swedish-nordic-local,2,http://www.spray.se/,2000,Nordic / Local Web,nordic-local,3,False,badge,close+
+bilddagboken,Bilddagboken,swedish-nordic-local,swedish-nordic-local,2,http://www.bilddagboken.se/,2008,Nordic / Local Web,nordic-local,3,False,badge,close+
+apberget,Apberget,swedish-nordic-local,swedish-nordic-local,3,http://www.apberget.se/,2007,Nordic / Local Web,nordic-local,4,False,dot,closest
+emocore,Emocore,swedish-nordic-local,swedish-nordic-local,3,http://www.emocore.se/,2008,Nordic / Local Web,nordic-local,4,False,dot,closest
+fragbite,Fragbite,swedish-nordic-local,swedish-nordic-local,2,http://www.fragbite.se/,2008,Nordic / Local Web,nordic-local,3,False,badge,close+
+sweclockers,SweClockers,swedish-nordic-local,swedish-nordic-local,2,http://www.sweclockers.com/,2008,Nordic / Local Web,nordic-local,3,False,badge,close+
+fotosidan,Fotosidan,swedish-nordic-local,swedish-nordic-local,3,http://www.fotosidan.se/,2006,Nordic / Local Web,nordic-local,4,False,dot,closest
+kamrat,Kamrat,swedish-nordic-local,swedish-nordic-local,4,,2003,Nordic / Local Web,nordic-local,4,False,dot,closest
+ztv-web-communities,ZTV web communities,swedish-nordic-local,swedish-nordic-local,4,,2001,Nordic / Local Web,nordic-local,4,False,dot,closest
+msn-sverige-communities,MSN Sverige communities,swedish-nordic-local,swedish-nordic-local,4,,2004,Nordic / Local Web,nordic-local,4,False,dot,closest
+student-communities-on-passagen,Student communities on Passagen,swedish-nordic-local,swedish-nordic-local,4,,2001,Nordic / Local Web,nordic-local,4,False,dot,closest
+lunarstorm-dagbok,LunarStorm dagbok,swedish-nordic-local,swedish-nordic-local,3,http://www.lunarstorm.se/,2003,Nordic / Local Web,nordic-local,4,False,dot,closest
+bilddagboken-aesthetic-culture,Bilddagboken aesthetic culture,swedish-nordic-local,swedish-nordic-local,3,http://www.bilddagboken.se/,2008,Nordic / Local Web,nordic-local,4,False,dot,closest
+top-8,Top 8,weird-internet-dna,weird-internet-dna,2,,2005,Internet DNA,formats-glue,3,False,badge,close+
+away-messages,Away Messages,weird-internet-dna,weird-internet-dna,2,,2002,Internet DNA,formats-glue,3,False,badge,close+
+status-icons,Status icons,weird-internet-dna,weird-internet-dna,3,,2003,Internet DNA,formats-glue,4,False,dot,closest
+buddy-lists,Buddy lists,weird-internet-dna,weird-internet-dna,3,,2002,Internet DNA,formats-glue,4,False,dot,closest
+avatars,Avatars,weird-internet-dna,weird-internet-dna,2,,2004,Internet DNA,formats-glue,3,False,badge,close+
+signatures,Signatures,weird-internet-dna,weird-internet-dna,2,,2004,Internet DNA,formats-glue,3,False,badge,close+
+forum-badges,Forum badges,weird-internet-dna,weird-internet-dna,3,,2006,Internet DNA,formats-glue,4,False,dot,closest
+reaction-gifs,Reaction GIFs,weird-internet-dna,weird-internet-dna,2,,2010,Internet DNA,formats-glue,3,False,badge,close+
+gif-culture,GIF Culture,weird-internet-dna,weird-internet-dna,2,,2012,Internet DNA,formats-glue,3,False,badge,close+
+ascii-art,ASCII art,weird-internet-dna,weird-internet-dna,2,,1998,Internet DNA,formats-glue,3,False,badge,close+
+copypasta,Copypasta,weird-internet-dna,weird-internet-dna,2,,2010,Internet DNA,formats-glue,3,False,badge,close+
+chain-emails,chain emails,weird-internet-dna,weird-internet-dna,3,,2001,Internet DNA,formats-glue,4,False,dot,closest
+browser-homepages,browser homepages,weird-internet-dna,weird-internet-dna,3,,1998,Internet DNA,formats-glue,4,False,dot,closest
+cool-links-pages,cool links pages,weird-internet-dna,weird-internet-dna,3,,1998,Internet DNA,formats-glue,4,False,dot,closest
+fanlisting-sites,fanlisting sites,weird-internet-dna,weird-internet-dna,4,,2003,Internet DNA,formats-glue,4,False,dot,closest
+browser-toolbars,browser toolbars,weird-internet-dna,weird-internet-dna,3,,2005,Internet DNA,formats-glue,4,False,dot,closest
+geocities-neighborhoods,GeoCities neighborhoods,weird-internet-dna,weird-internet-dna,2,http://www.geocities.com/,1998,Internet DNA,formats-glue,3,False,badge,close+
+web-comics,web comics,weird-internet-dna,weird-internet-dna,3,,2004,Internet DNA,formats-glue,4,False,dot,closest
+cheat-code-sites,cheat code sites,weird-internet-dna,weird-internet-dna,3,,2001,Internet DNA,formats-glue,4,False,dot,closest
+game-mod-communities,game mod communities,weird-internet-dna,weird-internet-dna,3,,2004,Internet DNA,formats-glue,4,False,dot,closest
+forum-reputation-systems,forum reputation systems,weird-internet-dna,weird-internet-dna,3,,2007,Internet DNA,formats-glue,4,False,dot,closest
+digg-effect,Digg effect,weird-internet-dna,weird-internet-dna,2,,2007,Internet DNA,formats-glue,3,False,badge,close+
+eternal-september,Eternal September,weird-internet-dna,weird-internet-dna,3,,1994,Internet DNA,formats-glue,4,False,dot,closest
