@@ -12,21 +12,16 @@ interface Props {
   onNavigate: (slug: string) => void;
 }
 
-/**
- * Polar → percentage offsets from stage center (50%, 43%).
- * Orbit radii sized to clear the large scene frame.
- */
 function polarToOffset(angleDeg: number, distance: number): { x: number; y: number } {
   const rad = (angleDeg * Math.PI) / 180;
   return {
-    x: Math.cos(rad) * 43 * distance,
-    y: Math.sin(rad) * 37 * distance,
+    x: Math.cos(rad) * 41 * distance,
+    y: Math.sin(rad) * 34 * distance,
   };
 }
 
-/** Culture unfolds: 0.5s → 0.7s → 0.9s → … */
 function discoveryDelay(i: number): number {
-  return 0.45 + i * 0.2;
+  return 0.2 + i * 0.12;
 }
 
 function extractFirstColor(gradient: string): string {
@@ -34,9 +29,8 @@ function extractFirstColor(gradient: string): string {
   return m ? m[0] : '#3b82f6';
 }
 
-// Scene center in percentage coordinates (must match the absolute positioning below)
-const CX = 50; // % from left
-const CY = 43; // % from top
+const CX = 50;
+const CY = 43;
 
 export default function ArtifactStage({ artifact, place, onNavigate }: Props) {
   const ecosystem = place?.ecosystem ?? [];
@@ -44,20 +38,28 @@ export default function ArtifactStage({ artifact, place, onNavigate }: Props) {
   const glowColor = extractFirstColor(artifact.gradient);
 
   return (
-    <div className="absolute inset-0 overflow-hidden">
-      {/* Full-stage ambient glow evokes the artifact's era */}
+    <div
+      className="absolute inset-0 overflow-hidden"
+      style={{ fontFamily: '"Courier New", Courier, monospace' }}
+    >
+      {/* Ambient glow based on artifact color */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background: `radial-gradient(ellipse 90% 70% at 50% 38%, ${glowColor}1e 0%, transparent 60%)`,
+          background: `radial-gradient(ellipse 80% 60% at 50% 38%, ${glowColor}28 0%, transparent 55%)`,
         }}
       />
 
-      {/* SVG connection lines — drawn from scene center to each node */}
-      <svg
-        className="absolute inset-0 w-full h-full pointer-events-none"
-        style={{ zIndex: 15 }}
-      >
+      {/* Scanlines */}
+      <div
+        className="absolute inset-0 pointer-events-none z-[1]"
+        style={{
+          backgroundImage: 'repeating-linear-gradient(0deg, transparent 0px, transparent 3px, rgba(0,0,0,0.07) 3px, rgba(0,0,0,0.07) 4px)',
+        }}
+      />
+
+      {/* ── SVG connection lines ────────────────────────────────────── */}
+      <svg className="absolute inset-0 w-full h-full pointer-events-none z-[10]">
         <AnimatePresence>
           {ecosystem.map((node, i) => {
             const { x, y } = polarToOffset(node.angle, node.distance);
@@ -72,43 +74,44 @@ export default function ArtifactStage({ artifact, place, onNavigate }: Props) {
                 y2={`${CY + y}%`}
                 stroke={lineColor}
                 strokeWidth={node.navigable ? '0.8' : '0.5'}
-                strokeDasharray={node.navigable ? '3 5' : '1.5 6'}
+                strokeDasharray={node.navigable ? '3 5' : '1 7'}
                 initial={{ opacity: 0 }}
                 animate={{
-                  opacity: node.navigable ? 0.22 : 0.1,
-                  transition: { delay: discoveryDelay(i) + 0.15, duration: 0.6 },
+                  opacity: node.navigable ? 0.35 : 0.15,
+                  transition: { delay: discoveryDelay(i) + 0.1, duration: 0.4 },
                 }}
-                exit={{ opacity: 0, transition: { duration: 0.12 } }}
+                exit={{ opacity: 0, transition: { duration: 0.08 } }}
               />
             );
           })}
         </AnimatePresence>
       </svg>
 
-      {/* ── ARTIFACT SCENE — dominates the viewport ─────────────────────────── */}
+      {/* ── ARTIFACT SCENE ────────────────────────────────────────────── */}
       <motion.div
         key={artifact.slug}
-        initial={{ opacity: 0, scale: 0.93, y: 8 }}
+        initial={{ opacity: 0, y: 6 }}
         animate={{
-          opacity: 1, scale: 1, y: 0,
-          transition: { duration: 0.55, ease: [0.25, 0, 0, 1] as [number, number, number, number] },
+          opacity: 1, y: 0,
+          transition: { duration: 0.25, ease: [0.25, 0, 0, 1] as [number, number, number, number] },
         }}
-        exit={{ opacity: 0, scale: 0.9, transition: { duration: 0.2 } }}
-        className="absolute z-10"
+        exit={{ opacity: 0, transition: { duration: 0.12 } }}
+        className="absolute z-20"
         style={{
-          width: 'clamp(320px, 62vw, 700px)',
+          width: 'clamp(300px, 58vw, 680px)',
           left: '50%',
           top: `${CY}%`,
           transform: 'translate(-50%, -50%)',
         }}
       >
-        {/* Scene frame */}
+        {/* Frame — sharp corners, raw */}
         <div
-          className="relative overflow-hidden rounded-2xl"
+          className="relative overflow-hidden"
           style={{
-            height: 'clamp(220px, 44vh, 420px)',
-            border: '1px solid rgba(255,255,255,0.08)',
-            boxShadow: `0 0 100px ${glowColor}2a, 0 32px 100px rgba(0,0,0,0.8)`,
+            height: 'clamp(200px, 40vh, 400px)',
+            border: '1px solid rgba(255,255,255,0.12)',
+            // No rounded corners
+            boxShadow: `0 0 60px ${glowColor}22, 0 20px 80px rgba(0,0,0,0.85)`,
           }}
         >
           {hasScene ? (
@@ -117,16 +120,16 @@ export default function ArtifactStage({ artifact, place, onNavigate }: Props) {
             <AmbientEnvironment artifact={artifact} />
           )}
 
-          {/* Cinematic title caption at bottom of scene */}
+          {/* Title caption */}
           <div
-            className="absolute bottom-0 left-0 right-0 px-6 pb-5 pt-20"
-            style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.92) 0%, transparent 100%)' }}
+            className="absolute bottom-0 left-0 right-0 px-5 pb-4 pt-16"
+            style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, transparent 100%)' }}
           >
             <div className="flex items-end justify-between gap-3">
-              <h2 className="text-[22px] font-semibold text-white leading-tight tracking-tight">
+              <h2 className="text-[18px] font-bold text-white leading-tight tracking-tight">
                 {artifact.title}
               </h2>
-              <span className="text-[11px] font-mono text-white/40 flex-shrink-0 pb-0.5 tabular-nums">
+              <span className="text-[10px] text-white/45 flex-shrink-0 pb-0.5 tabular-nums">
                 {artifact.startYear}
                 {artifact.endYear ? `–${String(artifact.endYear).slice(2)}` : '+'}
               </span>
@@ -134,16 +137,16 @@ export default function ArtifactStage({ artifact, place, onNavigate }: Props) {
           </div>
         </div>
 
-        {/* Description — below scene, museum label style */}
-        <p className="mt-3 text-[11px] text-white/38 leading-relaxed line-clamp-2 text-center px-2 max-w-lg mx-auto">
+        {/* Description */}
+        <p className="mt-2.5 text-[10px] text-white/42 leading-relaxed line-clamp-2 text-center px-4">
           {artifact.shortDescription}
         </p>
       </motion.div>
 
-      {/* ── ECOSYSTEM NODES — emerge around the artifact ─────────────────────── */}
+      {/* ── ECOSYSTEM NODES ──────────────────────────────────────────── */}
       <AnimatePresence>
         {ecosystem.map((node, i) => (
-          <EcosystemNode
+          <EcosystemNodeDot
             key={`${artifact.slug}-${node.id}`}
             node={node}
             index={i}
@@ -151,23 +154,13 @@ export default function ArtifactStage({ artifact, place, onNavigate }: Props) {
           />
         ))}
       </AnimatePresence>
-
-      {ecosystem.length === 0 && (
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { delay: 1.2 } }}
-          className="absolute bottom-8 left-0 right-0 text-center text-[9px] tracking-[0.25em] uppercase text-white/15"
-        >
-          ← back to keep exploring
-        </motion.p>
-      )}
     </div>
   );
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
 
-function EcosystemNode({
+function EcosystemNodeDot({
   node,
   index,
   onNavigate,
@@ -178,56 +171,56 @@ function EcosystemNode({
 }) {
   const { x, y } = polarToOffset(node.angle, node.distance);
   const sym = getNodeSymbol(node.id, node.relation);
-  const isStrange = node.relation === 'strange';
-  const isCulture = !node.navigable;
   const nodeColor = sym.glyphColor ?? '#94a3b8';
   const delay = discoveryDelay(index);
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.4 }}
+      initial={{ opacity: 0 }}
       animate={{
-        opacity: 1, scale: 1,
-        transition: { delay, duration: 0.38, ease: [0.25, 0, 0, 1] as [number, number, number, number] },
+        opacity: 1,
+        transition: { delay, duration: 0.2 },
       }}
-      exit={{ opacity: 0, scale: 0.3, transition: { duration: 0.12 } }}
+      exit={{ opacity: 0, transition: { duration: 0.08 } }}
       style={{
         position: 'absolute',
         left: `calc(${CX}% + ${x}%)`,
         top: `calc(${CY}% + ${y}%)`,
         transform: 'translate(-50%, -50%)',
-        zIndex: 20,
+        zIndex: 30,
+        fontFamily: '"Courier New", Courier, monospace',
       }}
     >
       <motion.button
         onClick={() => node.navigable && onNavigate(node.id)}
         disabled={!node.navigable}
-        whileHover={node.navigable ? { scale: 1.12 } : undefined}
-        whileTap={node.navigable ? { scale: 0.93 } : undefined}
-        className={['group flex flex-col items-center gap-1.5 outline-none', node.navigable ? 'cursor-pointer' : 'cursor-default'].join(' ')}
+        whileHover={node.navigable ? { scale: 1.1 } : undefined}
+        className="group flex flex-col items-center gap-1.5 outline-none"
+        style={{ cursor: node.navigable ? 'crosshair' : 'default' }}
       >
-        <NodeCircle
-          glyph={sym.glyph}
-          glyphColor={nodeColor}
-          isMono={sym.mono ?? false}
-          isNavigable={node.navigable}
-          isStrange={isStrange}
-          isCulture={isCulture}
-        />
+        {/* Square node body */}
+        <NodeSquare node={node} color={nodeColor} />
 
-        <div className="flex flex-col items-center gap-0.5 max-w-[92px]">
+        {/* Label */}
+        <div className="flex flex-col items-center gap-0.5 max-w-[88px]">
           <span
-            className="text-[10px] leading-tight text-center font-medium"
-            style={{ color: node.navigable ? 'rgba(255,255,255,0.72)' : 'rgba(255,255,255,0.35)' }}
+            className="text-[9px] uppercase tracking-[0.1em] leading-tight text-center"
+            style={{
+              color: node.navigable ? 'rgba(255,255,255,0.78)' : 'rgba(255,255,255,0.32)',
+            }}
           >
-            {node.label}
+            <span className="group-hover:text-white/95 transition-colors duration-100">
+              {node.label}
+            </span>
           </span>
-          <span
-            className="text-[7px] tracking-[0.1em] uppercase"
-            style={{ color: `${nodeColor}80` }}
-          >
-            {RELATION_SHORT[node.relation] ?? node.relation}
-          </span>
+          {node.navigable && (
+            <span
+              className="text-[7px] tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-100"
+              style={{ color: nodeColor }}
+            >
+              enter →
+            </span>
+          )}
         </div>
       </motion.button>
     </motion.div>
@@ -236,63 +229,53 @@ function EcosystemNode({
 
 // ─────────────────────────────────────────────────────────────────────────────
 
-function NodeCircle({
-  glyph,
-  glyphColor,
-  isMono,
-  isNavigable,
-  isStrange,
-  isCulture,
+function NodeSquare({
+  node,
+  color,
 }: {
-  glyph: string;
-  glyphColor: string;
-  isMono: boolean;
-  isNavigable: boolean;
-  isStrange: boolean;
-  isCulture: boolean;
+  node: EcosystemNode;
+  color: string;
 }) {
-  const size = isNavigable ? 54 : 38;
+  const isNavigable = node.navigable;
+  const isStrange = node.relation === 'strange';
+  const isCulture = !isNavigable;
+  const size = isNavigable ? 36 : 24;
 
   return (
-    <div className="relative flex items-center justify-center" style={{ width: size, height: size }}>
-      {/* Curiosity anchor pulsing halo */}
+    <div className="relative group-hover:outline outline-1" style={{ outlineColor: `${color}80` }}>
+      {/* Pulsing halo for strange jumps */}
       {isStrange && isNavigable && (
         <motion.div
-          animate={{ scale: [1, 1.7, 1], opacity: [0.5, 0, 0.5] }}
-          transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-          className="absolute inset-0 rounded-full pointer-events-none"
-          style={{ border: `1px solid ${glyphColor}70`, background: `${glyphColor}18` }}
+          animate={{ scale: [1, 1.8, 1], opacity: [0.4, 0, 0.4] }}
+          transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut' }}
+          className="absolute inset-0 pointer-events-none"
+          style={{ border: `1px solid ${color}60`, background: `${color}10` }}
         />
       )}
 
-      {/* Hover glow */}
-      {isNavigable && (
-        <div
-          className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-180 pointer-events-none"
-          style={{ boxShadow: `0 0 20px ${glyphColor}65`, border: `1px solid ${glyphColor}80` }}
-        />
-      )}
-
-      {/* Body */}
+      {/* Square body */}
       <div
-        className="relative flex items-center justify-center rounded-full"
         style={{
           width: size,
           height: size,
-          background: `${glyphColor}${isNavigable ? '18' : '08'}`,
-          border: `1px ${isCulture ? 'dashed' : 'solid'} ${glyphColor}${isNavigable ? '50' : '22'}`,
-          opacity: isNavigable ? 1 : 0.6,
+          background: `${color}${isNavigable ? '1a' : '0c'}`,
+          border: `1px ${isCulture ? 'dashed' : 'solid'} ${color}${isNavigable ? '55' : '25'}`,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          // deliberately no border-radius — raw 1990s aesthetic
         }}
       >
-        <span
-          className={['leading-none select-none', isMono ? 'font-mono' : ''].join(' ')}
-          style={{
-            color: glyphColor,
-            fontSize: glyph.length > 3 ? '7px' : glyph.length > 2 ? '9px' : '15px',
-          }}
-        >
-          {glyph}
-        </span>
+        {isNavigable && (
+          <div
+            style={{
+              width: 4,
+              height: 4,
+              background: color,
+              opacity: 0.7,
+            }}
+          />
+        )}
       </div>
     </div>
   );
@@ -306,37 +289,31 @@ function AmbientEnvironment({ artifact }: { artifact: Artifact }) {
       className="absolute inset-0 flex items-center justify-center overflow-hidden"
       style={{ background: artifact.gradient }}
     >
-      {/* Large year watermark */}
+      {/* Year watermark */}
       <span
-        className="font-black leading-none text-white/[0.07] select-none pointer-events-none"
-        style={{ fontSize: '30vw', letterSpacing: '-0.05em' }}
+        className="absolute font-black text-white/[0.06] select-none pointer-events-none leading-none"
+        style={{ fontSize: '28vw', letterSpacing: '-0.05em' }}
       >
         {artifact.startYear}
       </span>
 
-      {/* Scanlines */}
-      <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ opacity: 0.04 }}>
-        <defs>
-          <pattern id={`scan-${artifact.slug}`} width="1" height="4" patternUnits="userSpaceOnUse">
-            <rect width="1" height="1" fill="white" />
-          </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill={`url(#scan-${artifact.slug})`} />
-      </svg>
+      {/* Phosphor scanlines overlay */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 3px)',
+        }}
+      />
 
-      <span className="absolute top-4 left-5 text-[8px] tracking-[0.3em] uppercase text-white/22">
+      {/* Artifact type stamp */}
+      <span className="absolute top-3 left-4 text-[8px] tracking-[0.3em] uppercase text-white/28">
         {artifact.type}
+      </span>
+
+      {/* Corner bracket decoration */}
+      <span className="absolute top-3 right-4 text-[8px] text-white/15">
+        [{artifact.startYear}]
       </span>
     </div>
   );
 }
-
-// ─────────────────────────────────────────────────────────────────────────────
-
-const RELATION_SHORT: Record<string, string> = {
-  before: 'earlier',
-  after: 'next',
-  sideways: 'parallel',
-  culture: 'practice',
-  strange: 'strange jump',
-};
